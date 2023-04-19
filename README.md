@@ -1,13 +1,13 @@
 # ML_Assignment_Laptop_Price_predication
 
 
-<img src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/04/apple-stock-price.jpg">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcurrency.com%2Frally-price-prediction&psig=AOvVaw1LXyrWdhUZZfxezUgFiLqh&ust=1682003991755000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMjB2Kiftv4CFQAAAAAdAAAAABAI">
 
 # Machine Learning for Apple Stock Market Price Predictions
 
-The AAPL stock price forecast is one of the most preferred topics and most interesting topics in the science industry. However, stock market price forecasts are challenging compared to other price forecasting case studies. Many scholars and industry experts have come to a greater consensus a decade. They have studied stocks in various fields such as Computer Science, Economics, Business Arithmetic, and Marketing price forecasts. The stock has been identified according to them as a random walking behavior at market prices. The sudden rises and falls have been the main reason behind stock market price forecasting being a big challenge. An efficient and accurate.
+Machine learning is a branch of artificial intelligence that focuses on developing algorithms that can learn from data and make predictions or decisions without being explicitly programmed. One of the applications of machine learning is in predicting the market price of products, such as laptops.To build a machine learning model for laptop market price predictions, the first step is to collect a dataset of laptop prices along with their specifications and other relevant information such as release date, brand, etc. Once the data is collected, it needs to be cleaned and preprocessed by removing duplicates, filling in missing values, and removing irrelevant information.The next step is feature engineering, which involves creating new features based on the existing features that can help improve the accuracy of the model. For example, creating a feature that represents the age of the laptop since release date.After feature engineering, an appropriate machine learning model is selected for the problem at hand. Linear regression, decision trees, and random forests are some of the popular models for price predictions.The model is then trained using the cleaned dataset and the selected machine learning algorithm. Once the model is trained, its accuracy is validated using a validation dataset that the model has not seen before. The model is then tested on a test dataset to see how well it performs on new data.
 
-stock market forecasting model will help managers, investors, and decision-makers make the right decisions regarding their investments. Machine learning techniques used to predict stock prices include the analysis of historical data to predict the likelihood of a future event or to predict future performance. This is done by looking at patterns of data that include current and past information and finding the most suitable predictive models.
+Once the model has been validated and tested, it can be deployed to predict the prices of new laptops based on their specifications. It's important to note that the accuracy of the model depends on the quality and quantity of the data, the features selected, and the machine learning algorithm used.
 
 <h3 align="left">Programming Languages and Tools:</h3>
 <p align="left"> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>  </a> <a href="https://nteract.io/" target="_blank"> <img src="https://avatars.githubusercontent.com/u/12401040?s=200&v=4" alt="Nteract" width="50" height="50"/> </a> <a href="https://anaconda.org/" target="_blank"> <img src="https://www.clipartkey.com/mpngs/m/227-2271689_transparent-anaconda-logo-png.png" alt="Anaconda" width="50" height="50"/> </a> <a href="https://www.spyder-ide.org/" target="_blank"> <img src="https://www.pinclipart.com/picdir/middle/180-1807410_spyder-icon-clipart.png" alt="Spyder" width="50" height="50"/> </a> <a href="https://jupyter.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Notebook" width="50" height="50"/> </a> <a href="https://notepad-plus-plus.org/" target="_blank"> <img src="https://logos-download.com/wp-content/uploads/2019/07/Notepad_Logo.png" alt="Notepad++" width="50" height="50"/> </a> </p>
@@ -34,8 +34,8 @@ We used TensorFlow, Keras as main framework for this and use normal python libra
 ### Most Common Regression Algorithms
 
 1. Linear Regression Model
-2. Logistic Regression Model
-3. Bayesian Ridge Regression Model
+2. svm Model
+3. Random Forest Regression Model
 4. Decision Tree Regression Model
 
 # Prerequistes
@@ -54,6 +54,7 @@ https://www.python.org/
 <p align="left"> </a> <a href="https://anaconda.org/" target="_blank"> <img src="https://www.clipartkey.com/mpngs/m/227-2271689_transparent-anaconda-logo-png.png" alt="Anaconda" width="80" height="80"/> </a> <a href="https://www.spyder-ide.org/" target="_blank"> <img src="https://www.kindpng.com/picc/m/86-862450_spyder-python-logo-png-transparent-png.png" alt="Spyder" width="80" height="80"/> </a> <a href="https://jupyter.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Notebook" width="80" height="80"/> </a> <a href="https://notepad-plus-plus.org/" target="_blank"> <img src="https://logos-download.com/wp-content/uploads/2019/07/Notepad_Logo.png" alt="Notepad++" width="80" height="80"/> </a> <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://brandeps.com/logo-download/P/Pycharm-logo-vector-01.svg" alt="Notepad++" width="80" height="80"/> </a> </p>
 
 
+#Member Details ----
 
 | Studnet ID | Name |
 |--|--|
