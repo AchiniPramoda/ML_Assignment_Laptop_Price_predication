@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Home Page</title>
+	<title>Home Page</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
-			background-color: #f5f5f5;
+			background-color: black;
 		}
 
 		.header {
 			background-color: #333;
 			color: #fff;
 			padding: 20px;
-			text-align: center;
 			font-size: 36px;
+		}
+		
+		.contents{
+		   margin-top:100px;
+		   background-color: black;
+		   margin-left:200px;
+		}
+		
+		.navbars{
+		   
+		    display: inline-block;
+			
+		}
+		
+		.navbars h3 {
+          display: inline-block;
+          margin-right: 10px;
+        }
+		
+		.grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+          }
+
+         .grid-containers {
+		    margin-top:40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+          }
+
+        .image-column {
+            grid-column: 1 / 2;
+         }
+
+        .link-column {
+           grid-column: 2 / 3;
+	    
+         }
+		
+		.headerName{
+		    text-align:left;
+			
+		   
+		}
+		
+		h3{
+		   font-size: 14px;
+		   color:#16D5D5;
 		}
 
 		.content {
 			padding: 20px;
+			font-size: x-large;
 			margin: 20px;
 			background-color: #fff;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,6 +91,9 @@
 			padding: 10px 20px;
 			background-color: #333;
 			color: #fff;
+			max-width: 50%;
+			text-align: center;
+			width: 400px;
 			text-decoration: none;
 			border-radius: 5px;
 			transition: all 0.2s ease-in-out;
@@ -51,23 +104,66 @@
 			color: #333;
 			border: 2px solid #333;
 		}
+		
+		.contents h1{
+		  color:white;
+		  text-align:center;
+		}
+		p{
+			color: #ffffff;
+
+		}
 	</style>
 </head>
 <body>
 	<div class="header">
-		<h1>Welcome to Laptop Price Predictor!</h1>
+	 <div class="grid-container">
+	 <div class="image-column">
+	   <div class="headerName">
+		<h1>LapTop World</h1>
+	   </div>
+	   </div>
+	   
+	    <div class="link-column">
+	   <div class="navbars">
+	       <h3>About Us</h3>
+		   <h3>Product & Service</h3>
+		   <h3>Our Work</h3>
+		   <h3>Laptops</h3>
+	   </div>
+	   </div>
 	</div>
-	<div class="content">
-              <!-- write paragraph about laptop price -->
-              <h1>What is Laptop Price Predictor?</h1>
-              <p></p>
-
+	</div>
+	<div class="contents">
+	 <h1 >What is Laptop Price Predictor?</h1>
+	 <p>The Laptop Price Predictor is a tool that uses machine learning techniques to estimate the price of a laptop based on various factors such as the brand, specifications, age, condition, and market trends. It analyzes historical data and current market trends to provide an estimate of the price that a laptop could sell for in the current market. This tool can be helpful for sellers who want to set a fair price for their laptop, buyers who want to know if they are getting a good deal, and for retailers who want to optimize their pricing strategy to stay competitive in the market.</p>
+	    <div class="grid-containers">
+		       
+              <div class="image-column">
+	                <img src="../static/image.png" alt="laptop image" width="600" height="500">
+              </div>
+			  
+           
+             <div class="link-column">
               <!-- add 3 buttons for 3 machine learining algrothums-->
               <a href="/LenearRegression" class="button">Linear Regression</a>
+		<br>
+		<br>
+		<br>
+		<br>
               <a href="/RandomForestRegressor " class="button">RandomForest Regressor</a>
-              <a href="/DecisionTreeRegressor" class="button">DecisionTree Regressor</a>
+		<br>
+		<br>
+		<br>
+		<br>
+              <a href="/DecisionTreeRegressor" class="button">Decision TreeRegressor</a>
+		<br>
+		<br>
+		<br>
+		<br>
 		<a href="/svm" class="button">SVM Regressor</a>
-
+             </div>
+	    </div>		 
             
 
 	</div>
